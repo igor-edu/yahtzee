@@ -1,0 +1,35 @@
+.Overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.94);
+}
+
+.Overlay-hide {
+    display: none;
+}
+
+.Overlay-inside {
+    background-color: #6f2dbd;
+    color: #ebf2fa;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Overlay-inside p {
+    margin: 5px 0;
+}
+
+.Overlay-inside button {
+    padding: 3px 10px 2px 8px;
+    margin: 10px 0 4px;
+}
+
+.Overlay-inside button:hover {
+    background-color: #3d077a;
+}

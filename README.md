@@ -1,3 +1,5 @@
+try out your luck with a dice, run dice and then choose the score, 3 rolls per score, you can freeze any dice
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

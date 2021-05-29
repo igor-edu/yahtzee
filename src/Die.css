@@ -1,0 +1,27 @@
+.Die {
+    font-size: 3rem;
+}
+
+.Die:hover {
+    cursor: pointer;
+}
+
+.Die-frozen .Die-icon {
+    cursor: pointer;
+    color: #b298dc;
+}
+
+.Die-icon {
+    transition: transform 2s ease-out;
+}
+
+.Die-icon-rotate {
+    transform: rotate(3turn);
+    transform-origin: center;
+}
+
+@media (min-width: 576px) {
+    .Die {
+        font-size: 4rem;
+    }
+}

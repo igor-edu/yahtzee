@@ -1,0 +1,29 @@
+
+.Footer-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1px 3px;
+}
+
+.Footer h3 {
+    margin-bottom: -16px;
+}
+
+.Footer p:first-child {
+    font-size: 0.9rem;
+}
+
+.Footer p:last-child {
+    font-size: 1.15rem;
+}
+
+@media (min-width: 576px) {
+    .Footer h3 {
+        margin-bottom: -10px;
+    }
+
+    .Footer-inside {
+        justify-content: space-around;
+    }
+}
